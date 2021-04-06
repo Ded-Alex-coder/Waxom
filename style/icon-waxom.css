@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'waxom';
+  src: url('../fonts/webfonts/waxom.eot?eemgrc');
+  src: url('../fonts/webfonts/waxom.eot?eemgrc#iefix')
+      format('embedded-opentype'),
+    url('../fonts/webfonts/waxom.ttf?eemgrc') format('truetype'),
+    url('../fonts/webfonts/waxom.woff?eemgrc') format('woff'),
+    url('../fonts/webfonts/waxom.svg?eemgrc#waxom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='waxom-']::before,
+[class*=' waxom-']::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'waxom' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.waxom-dot:before {
+  content: '\e900';
+}
+.waxom-chevron-circle-left:before {
+  content: '\e901';
+}
+.waxom-chevron-circle-right:before {
+  content: '\e902';
+}
+.waxom-customization:before {
+  content: '\e903';
+}
+.waxom-development:before {
+  content: '\e904';
+}
+.waxom-horizontal-line:before {
+  content: '\e905';
+}
+.waxom-icon-cart:before {
+  content: '\e906';
+}
+.waxom-icon-search:before {
+  content: '\e907';
+}
+.waxom-left:before {
+  content: '\e908';
+}
+.waxom-link:before {
+  content: '\e909';
+}
+.waxom-marketing:before {
+  content: '\e90a';
+}
+.waxom-right:before {
+  content: '\e90b';
+}
+.waxom-search-bolt:before {
+  content: '\e90c';
+}
+.waxom-web-app-design:before {
+  content: '\e90d';
+}
